@@ -1,0 +1,27 @@
+﻿/* Sham Husari 09 - 21- 24 */
+
+
+header {
+    background-color: lightslategrey
+}
+footer {
+    background-color: lightslategrey
+}
+
+p, ul, li {
+    font-size: 20px;
+}
+a:link {
+    color: #2a0404;
+}
+a:visited {
+    color: #00ffff;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+a:active {
+    color: #4f5f65;
+}
