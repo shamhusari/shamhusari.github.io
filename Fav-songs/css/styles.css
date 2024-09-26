@@ -1,0 +1,61 @@
+﻿@charset "utf-8";
+
+
+thead {
+
+    background-color: #9ebecc;
+    color: #FFFFFF;
+} 
+
+
+body {
+
+    background: #4f5f65
+}
+
+table {
+    border: 6px solid #9ebecc;
+    background-color: #566c8e;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: left;
+    font-size: 20px;
+    align-items: center;
+}
+
+
+a:link {
+    color: #2a0404;
+}
+
+a:visited {
+    color:  #514063
+}
+
+a:hover {
+    color: #566c8e
+}
+
+a:active {
+    color: #4f5f65;
+}
+
+caption{
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+tr:nth-child(even) {
+    background: #D0E4F5;
+}
+
+tr:nth-child(2n+1) {
+    background: #86a4bd
+}
+
+tfoot {
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #023047;
+}
