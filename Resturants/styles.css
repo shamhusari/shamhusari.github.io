@@ -1,0 +1,42 @@
+﻿
+body {
+    background: #77b5b3;
+}
+
+#outerwrapper {
+    background: #4b9894;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-style: dotted;
+}
+
+first-of-type, h2 {
+    padding-left: .5em;
+}
+
+nth-child(odd) {
+    font-style: italic;
+}
+
+a:link {
+    color: #401212;
+}
+
+a:visited {
+    color: aliceblue;
+}
+
+a:hover {
+    color: #2f2830;
+}
+
+a:active {
+    color: #1e3724;
+}
+
+footer {
+    background: #ffffff;
+    text-align: center;
+    padding: .25em;
+}
