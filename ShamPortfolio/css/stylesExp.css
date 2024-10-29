@@ -1,0 +1,62 @@
+﻿/* sham husari */
+.creativeProjects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.projectBox {
+    background: #FFFFFF;
+    border: 5px ridge #6e8d90;
+    margin: 10px;
+    text-align: center;
+    width: 45%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+    .projectBox h4.year {
+        background: #4e706f;
+        color: #FFFFFF;
+        padding: 15px;
+        font-weight: normal;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .projectBox a.c1, .projectBox a.c2, .projectBox a.p1, .projectBox a.p3, .projectBox a.p2, .projectBox a.p4, .projectBox a.piano {
+        border: 3px solid #4e706f;
+        padding: 10px;
+        margin: 10px; 
+    }
+
+    .projectBox .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+        padding: 10px;
+        margin: 10px; 
+    }
+    .projectBox p.add-text {
+        background: #808080;
+        color: aliceblue;
+        border-radius: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-right: 200px;
+        margin-left: 200px;
+
+    }
+        .projectBox .row img {
+    width: 48%;
+    padding: 10px; 
+    margin: 10px; 
+}
+        
+
+footer {
+    clear: left;
+}
