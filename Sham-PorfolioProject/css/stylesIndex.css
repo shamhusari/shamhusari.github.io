@@ -1,0 +1,65 @@
+﻿html, body {
+    background-image: url('../image/mainpage.jpg');
+    background-repeat: no-repeat;
+    background-size: 5920px ;
+    font-size: 50px
+}
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0;
+}
+
+.logo {
+    width: 150px;
+    margin-right: 10px;
+}
+
+.name {
+    font-size: 40px;
+    font-weight: 100;
+    font-style: italic;
+    color: aliceblue;
+}
+
+nav {
+    background: url('../image/lace.png');
+    background-size: contain;
+    background-repeat: repeat-x;
+    font-weight: normal;
+}
+ nav ul {
+    display: inline-flex;
+    justify-content: end;
+    margin: 10px;
+    padding: 15px;
+    list-style-type: none;
+
+ }
+
+ nav ul li {
+     margin: 0 20px;
+ }
+
+ nav ul li a {
+     display: inline-block;
+     color: white;
+     padding: 3px 12px; 
+     text-decoration: none;
+     border-radius: 50px;
+     background-color: #a8b5d0;
+               
+}
+main {
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-size: 70px;
+    margin-top: 50px;
+}
+footer {
+    text-align: center;
+    margin-bottom: 79px;
+}
+
