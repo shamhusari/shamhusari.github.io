@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<!-- Sham Husari 11/21/2024-->
+<html lang="en">
+<head>
+    <title>Sham Contact page </title>
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="contact, portfolio, linkedIn, GitHub">
+    <meta name="author" content=" Sham Husari">
+    <meta name=" viewport" content=" width=device-width, initial-scale=1.0">
+    <meta name=" description" content="Contact page for portfolio">
+    <link href="css/stylesContact.css" rel="stylesheet" />
+    <link href="css/portfolio.css" rel="stylesheet">
+</head>
+<body class="contact">
+    <header>
+        <div class="header-container">
+            <img src="image/moonlogo.png" alt="Moon logo" />
+            <span class="name">Sham Husari</span>  </> <!-- fancy font-->
+        </div>
+    </header>
+    <!-- navigation bar with the lace as a background-->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="experience.html">Experience</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <form action="mailto:shamhusari@my.cwi.edu?subject=Personal%20Portfolio%20Mail" enctype="text/plain" method="POST">
+        <!-- Group Fields Together, page 104 -->
+        <fieldset>
+            <legend>How do I contact you?</legend>
+
+            <label for="company">Company: </label><br>
+            <input type="text" id="company" name="company"><br>
+
+
+            <label for="person">Person to contact: </label><br>
+            <input type="text" id="person" name="person" /><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Email" required><br>
+
+            <label for="phone">Phone Number:</label>
+            <input tey="tel" id="phone" name="phone" placeholder="000-000-0000" required><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>What opportunities are abailable at your company?</legend>
+
+            <label for="position">Type of Position:</label>
+            <select id="position">
+                name="position">
+                <option value="internship">Internship</option>
+                <option value="Full-time">Full-Time</option>
+                <option value="part-time">Part-Time</option>
+                <option value="contract">Contract</option>
+                <option value="temporary">Temporary</option>
+                <option value="on-calll">On Call</option>
+            </select>
+
+            <br /><br />
+
+            <label>How did you find me?</label>
+            <div class="radio-group">
+                <label><input type="radio" name="source" value="linkedin">LinkedIn</label>
+                <label><input type="radio" name="source" value="job-fair">Job Fair</label>
+                <label><input type="radio" name="source" value="cwi-partner">CWI corporate artner</label>
+            </div>
+
+            <textarea id="preparation" name="preparation" cols="100" rows="10" placeholder="How should I prepare for the interview?"></textarea>
+        </fieldset>
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+    <footer>
+        <hr>
+        Find me on: <a target="_blank" href="https://www.linkedin.com/">LinkedIn</a> and <a target="_blank" href="https://github.com/">GitHub</a>
+    </footer>
+</body>
+</html>
+
