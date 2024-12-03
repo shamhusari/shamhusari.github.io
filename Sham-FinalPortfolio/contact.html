@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<!-- Sham Husari
+    11-21-2024 -->
+<html lang="en">
+<head>
+    <title>Contact Page</title>
+    <meta name="author" content="Sham Hussari">
+    <meta charset="UTF-8">
+    <meta name="description" content="Find me throug the contact form information provided here.">
+    <meta name="keywords" content="contact, reach out, email, phone, social media, github, linkedin">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital,wght@0,400..700;1,400..700&family=Italianno&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lobster&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Monsieur+La+Doulaise&family=Quintessential&family=Suez+One&display=swap" rel="stylesheet">
+    <link href="css/portfolio.css" rel="stylesheet">
+    <link href="css/contactForm.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <a href="index.html" target="_blank">
+                <img src="images/moonlogo.png" alt="Mylogo">
+            </a>
+            <span class="name">Sham Hussari</span>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="experience.html">Experience</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <form action="mailto:shamhusari@my.cwi.edu?subject=Personal%20Portfolio%20Mail" enctype="text/plain" method="POST">
+        <fieldset>
+            <legend>How do I contact you?</legend>
+
+            <label for="company">Company: </label>
+            <input type="text" id="company" name="company"><br />
+            <br>
+
+            <label for="person">Person to contact: </label>
+            <input type="text" id="person" name="person" /><br>
+            <br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Email" required><br>
+            <br>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="000-000-0000" required><br>
+            <br>
+        </fieldset>
+
+        <fieldset>
+            <legend>What opportunities are available at your company?</legend>
+
+            <label for="position">Type of Position:</label>
+            <select id="position">
+                <option value="internship">Internship</option>
+                <option value="Full-time">Full-Time</option>
+                <option value="part-time">Part-Time</option>
+                <option value="contract">Contract</option>
+                <option value="temporary">Temporary</option>
+                <option value="on-calll">On Call</option>
+            </select>
+
+            <br /><br />
+
+            <label>How did you find me?</label><br>
+
+            <label><input type="radio" name="source" value="linkedin">LinkedIn</label>
+            <label><input type="radio" name="source" value="job-fair">Job Fair</label>
+            <label><input type="radio" name="source" value="cwi-partner">CWI corporate artner</label>
+            <p>Message:</p>
+            <textarea name="preparation" cols="100" rows="10" placeholder="write here !! "></textarea>
+        </fieldset>
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+    <footer>
+        <hr>
+        Find me on:
+        <a target="_blank" href="https://www.linkedin.com/in/sham-husari2006">
+            <img src="images/linkedin.png" alt="LindedIn logo">
+        </a>
+        <a target="_blank" href="https://github.com/shamhusari/shamhusari.github.io">
+            <img src="images/github.png" alt="Github logo">
+        </a>
+    </footer>
+</body>
+</html>

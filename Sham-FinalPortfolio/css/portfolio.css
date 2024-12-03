@@ -1,0 +1,139 @@
+﻿/* Sham Hussari 
+    11-21-2024 */
+@font-face {
+    font-family: 'Play Fair';
+    src: url('../fonts/playfairdisplay-regular-webfont.woff') format('woff'),
+        url('../fonts/playfairdisplay-regular-webfont.woff2') format('woff2');
+    font-weight: 100;
+}
+body {
+    font-family: 'Play Fair', 'Times New Roman',serif;
+    background: radial-gradient(#ced4db,#7E93A6);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.home-page {
+    background: url('../images/mainpage.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+
+}
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0;
+}
+
+.home-page p {
+    font-family: "Play Fair", cursive, serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 40px;
+    text-align: center;
+    color: aliceblue;
+    margin-top: 550px;
+    font-size: 30px;
+}
+.about-page p {
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+    color: #35353b;
+    font-size: 25px;
+    border-radius: 15px;
+    color: #3e4046;
+}
+.name {
+    font-family: "Italianno", cursive, serif;
+    font-size: 30px;
+    font-weight: 100;
+    font-style: italic;
+    color: aliceblue;
+}
+nav {
+    background: url('../images/lace.png');
+    max-width: 100%;
+    background-size: contain;
+    background-repeat: repeat-x;
+    font-weight: normal;
+}
+nav ul {
+     display: inline-flex;
+     justify-content: end;
+     margin: 12px;
+     padding: 15px;
+     list-style-type: none;
+}
+nav ul li {
+     padding: 10px 10px 10px 10px;
+}
+nav ul li a {
+        display: inline-block;
+        color: white;
+        border-radius: 20px;
+        text-decoration: none;
+        background-color: #d2c3d7;
+        padding: 10px 10px 10px 10px;
+        font-size: 25px;
+        font-family: "Italianno", cursive, serif;
+    }
+.projects, .photography {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 22%;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.card h2 {
+    font-size: 50px;
+    color: #333;
+
+}
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+
+}
+h1 {
+    font-family: "Italianno", cursive, serif;
+    font-weight: 500;
+    font-size: 40px;
+    color:white;
+}
+h2 {
+    font-family: "Italianno", cursive, serif;
+    font-weight:300;
+    font-size: 40px;
+}
+
+footer {
+    text-align: center;
+    font-size: 30px;
+    font-family: "Italianno", cursive, serif;
+    color:aliceblue;
+}
+nav ul li a:hover {
+    background-color: aliceblue;
+    color: #d2c3d7;
+}
+
+nav ul li a:link {
+    background-color: #8aaca7;
+    color: black;
+}
+nav ul li a:active {
+    background-color: #6f5f97;
+    color: white;
+}
+
